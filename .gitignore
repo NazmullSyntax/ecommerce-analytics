@@ -1,0 +1,21 @@
+# Data — too large for GitHub; keep only processed sample
+data/raw/*.csv
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Power BI temp
+*.pbix~
+~$*.pbix
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
