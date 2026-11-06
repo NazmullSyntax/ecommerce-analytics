@@ -19,3 +19,10 @@ Thumbs.db
 
 # VS Code
 .vscode/
+# Block all raw and processed data
+data/raw/*.csv
+data/processed/*.csv
+
+# Keep folder structure (optional)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
